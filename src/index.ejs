@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Verizon Support-chatBot</title>
+        <link href="/css/botchat.css" rel="stylesheet" />
+        <script>
+        var width = 320;
+var height = 500;
+browser.driver.manage().window().setSize(width, height);
+        </script>
+        <style>
+            .wc-chatview-panel {
+                width: 320px;
+                height: 500px;
+                position: relative;
+            }
+        </style>
+    </head>
+    <body>
+        <div>          
+            <div style="margin-left: 0px" id="BotChatGoesHere"/>
+            <div style="clear:both;"/>
+        </div>
+        <h2>Loading....</h2>
+        <script src="/script/botchat.js"></script>
+        <script>
+            BotChat.App({
+                directLine: {
+                    token: "<%= token %>"
+                },
+                user: { id: 'botchattest' },
+                bot: { id: 'yourbot' },
+            }, document.getElementById("BotChatGoesHere"));
+        </script>
+    </body>
+</html>
