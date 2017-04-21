@@ -12,11 +12,11 @@
     },
     "FB_VERIFY_TOKEN": {
       "description": "Verification code",
-      "value": "840c13e9fe8f817ff8a72b18aff00556"
+      "value": "0b0df306ce58498ba23ecf31503ac615"
     },
     "FB_PAGE_ACCESS_TOKEN": {
       "description": "Page Access Token",
-        "value": "EAAAADg2NdZAkBANIwFgsqUJE7mHaVWbMpZBLkLusYX550ZComqg9SJXzWTl9bFExn2ZBel3gBqZBGT2PZBkiqRUgGIqxUctoZAFNFurZBLgZBb2yn6lUqdulYGvMWYoYBZAf1E2xl47QhOvZBXFHM3jIMq6ZAJ1SGZBhHAMkeKbvlZAJM3mgZDZD"        
+        "value": "EAAAADg2NdZAkBALUchMLnEDCujZAtW6strXLqvb6rn0tAvL8FYjFHDJaYhcf9TsQFs2i8kJyUVk4jByMmsGMW64ilZADAHedxLnTu7FWL4xS7DdAABljuXVFLvXIkyEQUEyeALKorL6MVb4tPyzV93ZBg9GoxsiyH9oQC7InAwZDZD"        
     },
     "APIAI_LANG": {
       "description": "Agent language",
